@@ -1,0 +1,13 @@
+## 構成
+- トランスパイラ
+ - babel
+- ランタイム
+ - deno
+- ビルドツール
+ - esbuild
+- 状態管理
+ - recoil
+- スタイル
+ - tailwind
+- e2e
+ - playwright
