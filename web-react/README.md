@@ -1,13 +1,13 @@
 ## 構成
 - トランスパイラ
- - babel
+  - babel
 - ランタイム
- - deno
+  - deno
 - ビルドツール
- - esbuild
+  - esbuild
 - 状態管理
- - recoil
+  - recoil
 - スタイル
- - tailwind
+  - tailwind
 - e2e
- - playwright
+  - playwright
