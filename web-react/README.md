@@ -10,8 +10,8 @@
 | tailwind   | wip        | css             |
 | playwright | wip        | e2e             |
 | recoil     | wip        | 状態管理        |
-| prettier   | wip        |                 |
-| eslint     | wip        |                 |
+| prettier   | ^2.2.1     |                 |
+| eslint     | ^7.25.0    |                 |
 
 ## 導入の過程
 
