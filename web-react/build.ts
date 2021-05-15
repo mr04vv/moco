@@ -10,7 +10,7 @@ build({
   bundle: true,
   minify: !isDev,
   sourcemap: isDev,
-  watch: {
+  watch: isDev && {
     onRebuild(err: BuildFailure | null, result: BuildResult | null) {
       console.log(JSON.stringify(err?.errors));
       console.log(JSON.stringify(result?.warnings));

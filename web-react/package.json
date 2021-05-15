@@ -9,10 +9,10 @@
   },
   "scripts": {
     "build": "run-p build:*",
-    "build:cp": "cpx -C public/** build/",
+    "build:cp": "cpx -C \"public/**\" build/",
     "build:build": "NODE_ENV=\"production\" ts-node ./build.ts",
     "start": "run-p watch:*",
-    "watch:cp": "cpx -C public/** build/",
+    "watch:cp": "cpx -C \"public/**\" build/",
     "watch:build": "sh -exec 'NODE_ENV=\\\"development\\\" ts-node ./build.ts'",
     "watch:serve": "wait-on build/index.js && reload -d build -b"
   },
